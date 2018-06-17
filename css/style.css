@@ -224,19 +224,39 @@ TAB CONTAINER & TAB CSS
 .tab-header-right
 {
 	text-align: center;
+	width: 50%;
 }
 .tab-header-left button,
 .tab-header-right button
 {
+	width: 130px;
 	background-color: #808080;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 20px 20px 5px 20px;
+    padding: 10px 0px 5px 0px;
+    margin: 30px 5px 0px 10px;
     transition: 0.3s;
     font-size: 17px;
     border-radius: 20px 20px 0px 0px;
+}
+.tab-header-left button:hover,
+.tab-header-right button:hover{
+	background-color: #80dfff;
+}
+li.all-member-li{
+	list-style-type: none;
+	padding: 10px;
+	border-bottom: 2px solid gray;
+}
+.member-info{
+	padding-left: 10px;
+}
+.img-thumb{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
 }
 
 
