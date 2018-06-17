@@ -1,0 +1,22 @@
+.top-left-header{
+	/*background-color: #eee;*/
+}
+span.logo{
+	background-image: url("../images/logo.png");
+	width: 210px;
+	height: 63px;
+	background-repeat: no-repeat;
+	background-position: left;
+	display: block;
+}
+
+form#search-form{
+	padding: 20px 10px;
+}
+
+.br-rounded{
+	border-radius: 5px;
+}
+.pd-5{
+	padding: 5px;
+}
