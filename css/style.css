@@ -11,12 +11,232 @@ span.logo{
 }
 
 form#search-form{
-	padding: 20px 10px;
+	padding: 13px 10px;
+}
+
+input[type="text"] {
+    width: 210px;
+    background-color: #eee;
 }
 
 .br-rounded{
 	border-radius: 5px;
 }
-.pd-5{
-	padding: 5px;
+.pd-2{
+	padding: 2px;
 }
+
+
+/*Backgrounds*/
+.bg-black{
+	background-color: black;
+}
+
+/*text */
+.txt-white{
+	color: white;
+}
+
+/*buttons*/
+.btn {
+    padding: 3px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.btn-search {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius:10px;
+}
+
+.btn-search:hover {
+    background-color: white;
+    color: black;
+}
+
+span.user{
+	text-align: right;
+	display: block;
+}
+
+/*all ul having nav class*/
+ul.nav{
+	list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+ul.nav li{
+	float: left;
+}
+ul.nav li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+/*top right navbar*/
+ul.top-right-navbar li{
+	/*float: left;*/
+	border-right:1px solid black;
+    line-height: 15px;
+}
+
+ul.top-right-navbar li a{
+	/*============
+	display: block;
+    text-align: center;
+    color: black;
+    =========*/
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul.top-right-navbar li:last-child{
+	border-right: none;
+}
+ul.top-right-navbar li a:hover{
+	/*background-color: #111111;*/
+}
+
+/*bottom left navbar*/
+ul.bottom-left-nav li{
+	/*float: left;*/
+}
+ul.bottom-left-nav li a{
+	/*display: block;*/
+	/*text-decoration: none;*/
+	/*color: black;*/
+    /*text-align: center;*/
+	padding-left: 20px;
+    line-height: 30px;
+}
+
+/*bottom right nav*/
+.bottom-right-nav li{
+	float: left;
+}
+.bottom-right-nav li a{
+	/*display: block; */
+	/*text-decoration: none;*/
+    /*text-align: center;*/
+	/*color: black;*/
+	padding-left: 20px;
+    line-height: 30px;
+}
+
+/*
+====================
+	FOOTER NAV
+====================
+*/
+
+ul.left-footer-nav{
+	list-style-type: disc;
+}
+
+ul.left-footer-nav li{
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+ul.left-footer-nav li:first-child{
+	list-style-type: none;
+}
+ul.left-footer-nav li a{
+	line-height: 30px;
+}
+.right-footer-wrapper{
+	line-height: 30px;
+}
+
+/*=========for using icons=====*/
+li#box-data{
+	background-image: url("../images/icons/data.png");
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: baseline;
+	padding: 0px 5px 0px 7px;
+}
+li#frn-request{
+	background-image: url("../images/icons/user.png");
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: baseline;
+	padding:0px 0px 0px 7px;
+}
+
+/*
+================
+	BOX
+================
+*/
+.box{
+	background-color: #e1eaea;
+}
+.box .box-header{
+	background-color: #80dfff;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+.box .box-body li{
+	display: block;
+	text-align: justify;
+}
+
+.box .box-body li:hover{
+	background-color: white;
+}
+.box .box-body li a{
+	color: black;
+	text-decoration: none;
+	line-height:30px;
+}
+
+/*
+=======================
+TAB CONTAINER & TAB CSS 
+=======================
+*/
+.tab-container{
+	padding: 0px 15px;
+}
+
+
+/* Style the tab */
+.tab-header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+   	border-bottom: 5px solid #0099ff;
+    border-radius: 20px 20px 0px 0px;
+}
+.tab-header-left,
+.tab-header-right
+{
+	text-align: center;
+}
+.tab-header-left button,
+.tab-header-right button
+{
+	background-color: #808080;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 20px 5px 20px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+

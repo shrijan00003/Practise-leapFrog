@@ -1,0 +1,3 @@
+============fancy border==========
+http://jsfiddle.net/Ugbrk/21/
+

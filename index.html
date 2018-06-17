@@ -13,21 +13,36 @@
 				<div class="top-header-wrapper clrfix">
 					<div class="top-left-header float-left">
 						<span class="logo float-left"></span>
-						<form id="search-form" class="float-right">
-							<input type="text" name="search" align="left" autocomplete="off" class="br-rounded pd-5">
-							<button type="button" class="br-rounded pd-5">Search</button>
+						<form id="search-form" class="float-left">
+							<input type="text" name="search" align="left" autocomplete="off" class="br-rounded pd-2">
+							<button type="button" class="br-rounded  btn btn-search">SEARCH</button>
 						</form>
 					</div>
 					<div class="top-right-header float-right">
-						top-right-header
+						<span class="user">Joe Burrons</span>
+						<ul class="nav top-right-navbar float-right">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Setting</a></li>
+							<li><a href="#">Log Out</a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="bottom-header-wrapper clrfix">
+			</div>
+			<div class="bottom-header-wrapper clrfix">
+				<div class="page-wrapper">
 					<div class="bottom-left-header float-left">
-						bottom-left-header
+						<ul class="nav bottom-left-nav">
+							<li><a href="#">Create New Entries</a></li>
+							<li><a href="#">My Topic Boxes</a></li>
+							<li><a href="#">Friends</a></li>
+							<li><a href="#">Invite New Member</a></li>
+						</ul>
 					</div>
 					<div class="bottom-right-header float-right">
-						bottom-right-header
+						<ul class="nav bottom-right-nav float-right">
+							<li id="box-data"><a href="#">Topic Boxes Invites-2</a></li>
+							<li id="frn-request"><a href="#">Friends Requests-0</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -36,14 +51,74 @@
 		<div class="main-container">
 			<div class="page-wrapper clrfix">
 				<div class="left-sidebar float-left">
-					left-sidebar inside page wrapper
+					<div class="box left-sidebar-top-box">
+						<div class="box box-header">
+							Recent Searches
+						</div>
+						<div class="box box-body">
+							<ul>
+								<li><a href="#">Nick Cave and The Bad Seeds </a></li>
+								<li><a href="#">African Animals</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="box left-sidebar-bottom-box">
+						<div class="box box-header">
+							Recent Searches
+						</div>
+						<div class="box box-body">
+							<ul>
+								<li><a href="#">Nick Cave and The Bad Seeds </a></li>
+								<li><a href="#">African Animals</a></li>
+								<li><a href="#">African Animals</a></li>
+								<li><a href="#">African Animals</a></li>
+								<li><a href="#">African Animals</a></li>
+								<li><a href="#">African Animals</a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 				<div class="body-wrapper float-right clrfix">
 					<div class="body-left-container float-left">
-						body-wrapper inside page wrapper
+						<div class="tab-container">
+							<h2>Entries</h2>
+							<div class="tab-header clrfix">
+								<div class="tab-header-left float-left">
+									<p>All Entries</p>
+							  		<button class="tab-link">All-Members</button>
+							  		<button class="tab-link">Friends</button>
+								</div>
+								<div class="tab-header-right float-right">
+									<p>Subscribed</p>	
+							  		<button class="tab-link">New Entries</button>
+							  		<button class="tab-link">New Comments</button>
+								</div>
+								</div>
+							<div id="London" class="tab-content">
+							  <h3>London</h3>
+							  <p>London is the capital city of England.</p>
+							</div>
+						</div>
 					</div>
 					<div class="body-right-sidebar float-right">
-						Video Tutorial
+						<div class="box right-sidebar-box">
+							<div class="box box-header">
+								Video Turorial
+							</div>
+							<div class="box box-body">
+								<ul>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+									<li><a href="#">EXAMPLE LINK HERE </a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -53,10 +128,16 @@
 		<div class="footer-wrapper">
 			<div class="page-wrapper clrfix">
 				<div class="left-footer-wrapper float-left">
-					footer wrapper left
+					<ul class="nav left-footer-nav">
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Feed Back</a></li>
+					</ul>
 				</div>
 				<div class="right-footer-wrapper float-right">
-					footer wrapper right
+					&copy; TuTangle 2018
 				</div>
 			</div>
 		</div>
