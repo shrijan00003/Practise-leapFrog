@@ -1,6 +1,6 @@
 .main-wrapper{
 	width: 100%;
-	background-color: red;
+	/*background-color: red;*/
 }
 /*page wrapper will be for every layout*/
 .page-wrapper{
@@ -35,11 +35,11 @@
 	width: 30%;
 }
 .main-container{
-	background-color: white;
+	/*background-color: white;*/
 	height: 520px;
 }
 .left-sidebar{
-	background-color: gray;
+	/*background-color: gray;*/
 	width: 20%;
 	height: 480px;
 }
@@ -54,7 +54,7 @@
 }
 
 .body-right-sidebar{
-	background-color: brown;
+	/*background-color: brown;*/
 	width: 30%;
 	height: 480px;
 }

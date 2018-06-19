@@ -259,4 +259,14 @@ li.all-member-li{
 	border-radius: 10px;
 }
 
+/*background image */
+
+.main-container .page-wrapper{
+	/*background-color: blue;*/
+	background-image: url("images/bg-main.png");
+	height: 1px;
+	background-repeat: repeat;
+
+}
+
 

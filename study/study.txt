@@ -13,3 +13,10 @@ link: https://medium.com/a-beginners-guide-for-webpack-2/webpack-loaders-css-and
 #Using SASS
 link: https://medium.com/a-beginners-guide-for-webpack-2/using-sass-9f52e447c5ae
 
+#font making site 
+link: http://www.font2web.com/
+
+#style guide for technical details of the fonts and 
+
+#
+
