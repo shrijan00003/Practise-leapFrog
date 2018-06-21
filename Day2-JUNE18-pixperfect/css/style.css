@@ -1,0 +1,230 @@
+
+.header-top-right-content{
+	padding-top: 20px;
+	text-align: right;
+	line-height: 1.3;
+}
+.header-top-right-content ul{
+	float: right;
+}
+.header-top-right-content ul li{
+	list-style-type: none;
+	float: left;
+}
+.header-top-right-content .user-name p{
+	display: block;
+	padding-top: 4px;
+	padding-bottom: 0;
+	font-size: 15px;
+	letter-spacing: 0.03em;
+	/* background-color: blue; */
+}
+.header-top-right-content .sec-nav ul{
+	outline: 1px dotted blueviolet;
+}
+.header-top-right-content ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 11px;
+	padding-left:2px;
+	padding-right:3px;
+	padding-top: 0px;
+	line-height: 0.5em;
+	text-align: right;
+}
+.navbar-list li{
+	list-style-type: none;
+	float: left;
+	padding-left: 12px;
+}
+.navbar-list li a{
+	text-decoration: none;
+	font-size: 0.8em;
+	color: black;
+}
+
+.navbar-left .navbar-list li{
+	padding-right: 25px;
+}
+
+.navbar-right .navbar-list li{
+	/*padding-left: 30px;*/
+}
+
+
+.list-icon{
+	width: 12px;
+	height: 12px;
+	float: right;
+}
+.tab-categories h3{
+	padding: 10px 0px;
+	font-weight: normal;
+	font-size: 12px;
+	/* font-size: 16px; */
+}
+.tab-title p{
+	font-size: 12px;
+	color:black;
+	padding: 10px 0px;
+}
+
+.sidebar-header p{
+	color: white;
+	font-size: 15px;
+	letter-spacing: 0.03em;
+	/* font-weight: normal; */
+}
+
+#active-right-nav a{
+	color:gray;
+}
+
+.footer-left ul li{
+	float:left;
+	padding: 10px 0px;
+	list-style-type: disc;
+	color: white;
+	font-size: 10px;
+}
+.footer-left ul li:first-child{
+	list-style-type: none;
+}
+.footer-left ul li a{
+	color:white;
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 10px;
+}
+.footer-right p{
+	color: white;
+	text-align: right;
+	font-size: 10px;
+}
+
+
+
+/*setting icon as background*/
+.navbar-right .navbar-list li{
+	padding: 0px 10px;
+}
+
+.navbar-right .navbar-list li:first-child{
+	background-image: url("../images/icons/data.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 16px 16px;
+	padding-right: 20px;
+}
+.navbar-right .navbar-list li:last-child{
+	background-image: url("../images/icons/user.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 16px 16px;
+	padding-right: 0px;
+}
+.navbar-right .navbar-list li a{
+	padding-left: 10px;
+}
+
+
+.sidebar-list{
+}	
+.sidebar-list ul li{
+	list-style-type: none;
+	display: block;
+}
+.sidebar-list ul li a{
+	text-decoration: none;
+	padding: 8px 1px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 0px;
+	display: block;
+	color: black;
+	font-size: 11px;
+}
+
+.sidebar-list ul li:hover{
+	background-color: white;
+}
+
+.sidebar-list ul.with-download-logo .with-logo{
+	padding-right: 40px;
+	background-image: url("../images/download.png");
+	background-repeat: no-repeat;
+	background-position:93% 45%;
+}
+.sidebar-list ul.with-menu-logo .with-logo{
+	padding-right: 40px;
+	background-image: url("../images/menu.png");
+	background-repeat: no-repeat;
+	background-position:95% 50%;
+}
+
+
+/* entry title */
+.entry-title p{
+	height: 34px;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+
+.entries-nav-wrapper {
+  background-color: #f5f5f5;
+  background-image: url('../images/title-nav-bg.png');
+  background-position: center top;
+  background-repeat: repeat-y;
+  border-bottom: 2px solid #2fc1da;
+  height: 65px;
+}
+.nav-titles .nav .nav-item {
+  /* outline: 1px solid red; */
+  float: left;
+  width: 259px;
+  text-align: center;
+  height: 37px;
+  line-height: 37px;
+  font-size: 12px;
+}
+
+.nav-tabs .nav .nav-item {
+  background-image: url('../images/tab-bg.png');
+  float: left;
+  width: 114px;
+  text-align: center;
+  margin-left: 10px;
+  height: 28px;
+  line-height: 30px;
+  font-size: 11px;
+}
+
+.nav-tabs .nav .nav-item:hover,
+.nav-tabs .nav .nav-item.active {
+  background-image: url('../images/tab-bg-active.png');
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-tabs .nav .nav-item.third {
+  margin-left: 22px;
+}
+
+
+.tab-content-text {
+	line-height: 1;
+	padding-top: 2px;
+}
+.tab-content-text h3{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0px 5px;
+}
+.tab-content-text p{
+	font-size: 11px;
+	padding: 3px 5px;
+
+}
+
