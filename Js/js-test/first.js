@@ -12,33 +12,40 @@
 //     -  “abc”  should return “c”
 
 
-var str = "abbbbcccccd";
-var curCount=0;
+var str = "abc";
+var curCount=1;
 var curChar;
-var MaxCount=0;
-var MaxChar;
+var maxCount=0;
+var maxChar;
+console.log("len",str.length);
 function solution(str) {
-    for(var i=0; i<str.length; i++){
-        curChar=str.charAt(i);
-        if(curChar===str.charAt[i]){
+    curChar=str.charAt(0);
+    for(var i=1; i<str.length; i++){
+        if(curChar===str.charAt(i)){
             //increase
-            // curChar=str.charAt(i);
-            // console.log("here");
+            console.log("increase");
             curCount++;
-            // if (curCount>MaxCount){
-            //     MaxCount = curCount;
-            //     MaxChar=curChar;
-            // }
         }else{
             //reset
-            // console.log("here");
+            console.log("reset");
+            curChar=str.charAt(i);
             curCount=1;
-            // MaxCount=curCount;
-            // MaxChar=str.charAt(i);
         }
-    }
 
-    console.log(MaxChar);
+        //compare
+        if(curCount>=maxCount){
+            maxCount=curCount;
+            maxChar=curChar;
+        }
+
+
+    }
+    
+    // console.log("current char",curChar);
+    console.log("current char",curChar);
+    console.log("current count",curCount);
+    console.log("max count",maxCount);
+    console.log("max char",maxChar);
 
 }
 
